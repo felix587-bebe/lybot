@@ -15,7 +15,7 @@ YDL_BASE_OPTS = {
     "no_warnings": True,
     "noplaylist": True,
     "ffmpeg_location": FFMPEG_PATH,
-    "extractor_args": {"youtube": {"player_client": ["android"]}},
+    "extractor_args": {"youtube": {"player_client": ["tv", "mweb", "android"]}},
 }
 
 
